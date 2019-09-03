@@ -69,7 +69,7 @@ var bingoList = [];
     { name: "Take pictures of all possible horse ankle colors/lengths [short/long white/black]", types: ["HORSE", "PICTURE", "COLOR"]}
   ];
   bingoList[17] = [
-    { name: "Take a picture of a horse on top of a Talus", types: ["HORSE", "PICTURE"]
+    { name: "Take a picture of a horse on top of a Talus", types: ["HORSE", "PICTURE"]},
     { name: "Ride a stalhorse to the Satori mountain meeting spot", types: ["STALHORSE", "TRAVEL"]}
   ];
   bingoList[18] = [
