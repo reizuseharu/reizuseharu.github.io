@@ -49,7 +49,7 @@ var bingoList = [];
     { name: "Ride a horse to Lurelin Village", types: ["HORSE", "VILLAGE", "TRAVEL"]}
   ];
   bingoList[12] = [
-    { name: "Ride a horse to Hyrule Castle", types: ["HORSE", "TRAVEL"]
+    { name: "Ride a horse to Hyrule Castle", types: ["HORSE", "TRAVEL"]},
     { name: "Ride a sandseal to each molduga in Gerudo Desert", types: ["SANDSEAL", "TRAVEL"]}
   ];
   bingoList[13] = [
