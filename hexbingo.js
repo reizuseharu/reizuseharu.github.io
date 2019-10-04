@@ -460,6 +460,8 @@ function LoadPage() {
 function LoadGoalListJS(file, callback) {
   var options = document.getElementById("bingogame");
   var file = options.value;
+  console.log(JSON.stringify(options);
+  console.log(file);
   if (file == 'URL') {
     file = prompt("Enter URL to bingo goal list JavaScript file");
     var x = document.getElementById("bingogame");
