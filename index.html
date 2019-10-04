@@ -4,24 +4,22 @@
   <head>
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="hexbingo.css">
+
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="seedrandom.js"></script>
+    <script src="hexbingo.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   </head>
-
-  <script src="jquery-3.1.1.min.js"></script>
-  <script src="seedrandom.js"></script>
-  <script src="hexbingo.js"></script>
-
-  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  
-  <script type="text/javascript" src="goallist/botw-mount.js"></script>
 
   <body bgcolor="black" onresize='fitToParent(".hexspan"); fitToParent(".rowspan")'>
     <div id="rules" style="display:none; position:fixed; height:70%; z-index: 2; color:white; background-color:rgba(0, 0, 0, 0.7); border: 1px solid grey; border-radius: 5px; margin: 50px; padding: 20px"><b>Rules</b><span></span></div>
     <div id="tips" style="display:none; position:fixed; height:70%; z-index: 2; color:white; background-color:rgba(0, 0, 0, 0.7); border: 1px solid grey; border-radius: 5px; margin: 50px; padding: 20px"><b>Tips</b><span></span></div>
 
     <div height="30px" align="center" style="padding-right: 8%; padding-left: 2%; padding-bottom: 10px; min-width: 500px; height: 20px">
-      <Span style="padding: 5px; font-size: 1.5em">
-        <Span class="TextR">H</Span><Span class="TextO">e</Span><Span class="TextY">x</Span><Span class="TextG">B</Span><Span class="TextB">i</Span><Span class="TextP">n</Span><Span class="TextR">g</Span><Span class="TextO">o</Span>
-      </Span>
+      <span style="padding: 5px; font-size: 1.5em">
+        <span class="TextR">H</Span><Span class="TextO">e</Span><Span class="TextY">x</Span><Span class="TextG">B</Span><Span class="TextB">i</Span><Span class="TextP">n</Span><Span class="TextR">g</Span><Span class="TextO">o</Span>
+      </span>
       <select id="bingotype">
         <option value="hex">HexBingo</option>
         <option value="mission">Mission Bingo</option>
