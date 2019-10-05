@@ -595,7 +595,7 @@ function GenerateBoard() {
   activeRow = [];
   ClearHover();
 
-  if (bingoList['rules']) {
+  if (bingoRules) {
     $("#rulesbutton").show();
     var xmlString = bingoList['rules']
       , parser = new DOMParser()
@@ -605,7 +605,7 @@ function GenerateBoard() {
     $("#rulesbutton").hide();
   }
 
-  if (bingoList['tips']) {
+  if (bingoTips) {
     $("#tipsbutton").show(); 
     var xmlString = bingoList['tips']
       , parser = new DOMParser()
