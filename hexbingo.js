@@ -595,9 +595,9 @@ function GenerateBoard() {
   activeRow = [];
   ClearHover();
 
-  if (bingoRules) {
+  if (bingoList['rules') {
     $("#rulesbutton").show();
-    var xmlString = bingoRules
+    var xmlString = bingoList['rules']
       , parser = new DOMParser()
       , doc = parser.parseFromString(xmlString, "text/html");
     document.getElementById("rules").replaceChild(doc.firstChild, document.getElementById("rules").childNodes[1]);
@@ -605,9 +605,9 @@ function GenerateBoard() {
     $("#rulesbutton").hide();
   }
 
-  if (bingoTips) {
+  if (bingoList['tips']) {
     $("#tipsbutton").show(); 
-    var xmlString = bingoTips
+    var xmlString = bingoList['tips']
       , parser = new DOMParser()
       , doc = parser.parseFromString(xmlString, "text/html");
     document.getElementById("tips").replaceChild(doc.firstChild, document.getElementById("tips").childNodes[1]);
